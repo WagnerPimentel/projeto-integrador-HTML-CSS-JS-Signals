@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo-banda{
+    padding: 5px;
+}
+
+.logo-banda img{
+    width: 200px;
+    height: auto;
+}
+
+.menu {
+    padding: 0px;
+}
+
+.container {
+    
+}
+
+.foto-banda {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.foto-banda img {
+
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
