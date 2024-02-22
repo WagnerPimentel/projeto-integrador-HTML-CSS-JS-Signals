@@ -11,6 +11,9 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    text-shadow: 0 0 5px #fff,   
+		            0 0 20px #b93131, 
+	                    0 0 30px #b93131;
 }
 
 .logo-banda{
@@ -26,18 +29,11 @@ header {
     padding: 0px;
 }
 
-.container {
-    
-}
 
 .foto-banda {
     display: flex;
     justify-content: center;
     margin: auto;
-}
-
-.foto-banda img {
-
 }
 
 .subtitulo {
@@ -47,6 +43,7 @@ header {
 
 .sobre {
     justify-content: center;
+    
 }
 
 nav ul {
